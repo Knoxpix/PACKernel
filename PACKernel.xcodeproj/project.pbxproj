@@ -1,0 +1,113 @@
+
+// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 52;
+  objects = {
+    /* Begin PBXBuildFile section */
+    1D60589F0D05DD3D006BFB54 /* PACKernel.c in Sources */ = {isa = PBXBuildFile; fileRef = 1D60588D0D05DD3D006BFB54 /* PACKernel.c */; };
+    /* End PBXBuildFile section */
+
+    /* Begin PBXFileReference section */
+    1D60588D0D05DD3D006BFB54 /* PACKernel.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PACKernel.c; sourceTree = "<group>"; };
+    1D60588E0D05DD3D006BFB54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+    /* End PBXFileReference section */
+
+    /* Begin PBXGroup section */
+    1D60588C0D05DD3D006BFB54 = {
+      isa = PBXGroup;
+      children = (
+        1D60588D0D05DD3D006BFB54 /* PACKernel.c */,
+        1D60588E0D05DD3D006BFB54 /* Info.plist */,
+      );
+      sourceTree = "<group>";
+    };
+    /* End PBXGroup section */
+
+    /* Begin PBXNativeTarget section */
+    1D6058910D05DD3E006BFB54 /* PACKernel */ = {
+      isa = PBXNativeTarget;
+      buildConfigurationList = 1D6058940D05DD3E006BFB54 /* Build configuration list */;
+      buildPhases = (
+        1D60588F0D05DD3E006BFB54 /* Sources */,
+      );
+      buildRules = ( );
+      dependencies = ( );
+      name = PACKernel;
+      productName = PACKernel;
+      productType = "com.apple.product-type.kernel-extension";
+    };
+    /* End PBXNativeTarget section */
+
+    /* Begin PBXProject section */
+    1D60588B0D05DD3D006BFB54 /* Project object */ = {
+      isa = PBXProject;
+      buildConfigurationList = 1D6058950D05DD3E006BFB54 /* Project configuration list */;
+      compatibilityVersion = "Xcode 3.2";
+      hasScannedForEncodings = 0;
+      mainGroup = 1D60588C0D05DD3D006BFB54;
+      projectDirPath = "";
+      targets = (
+        1D6058910D05DD3E006BFB54 /* PACKernel */,
+      );
+    };
+    /* End PBXProject section */
+
+    /* Begin PBXSourcesBuildPhase section */
+    1D60588F0D05DD3E006BFB54 /* Sources */ = {
+      isa = PBXSourcesBuildPhase;
+      buildActionMask = 2147483647;
+      files = (
+        1D60589F0D05DD3D006BFB54 /* PACKernel.c in Sources */,
+      );
+      runOnlyForDeploymentPostprocessing = 0;
+    };
+    /* End PBXSourcesBuildPhase section */
+
+    /* Begin XCBuildConfiguration section */
+    1D6058960D05DD3E006BFB54 /* Debug */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        ARCHS = arm64e;
+        GCC_PREPROCESSOR_DEFINITIONS = "";
+        INFOPLIST_FILE = Info.plist;
+        SDKROOT = macosx;
+      };
+      name = Debug;
+    };
+    1D6058970D05DD3E006BFB54 /* Release */ = {
+      isa = XCBuildConfiguration;
+      buildSettings = {
+        ARCHS = arm64e;
+        GCC_PREPROCESSOR_DEFINITIONS = "";
+        INFOPLIST_FILE = Info.plist;
+        SDKROOT = macosx;
+      };
+      name = Release;
+    };
+    /* End XCBuildConfiguration section */
+
+    /* Begin XCConfigurationList section */
+    1D6058940D05DD3E006BFB54 /* Build configuration list */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        1D6058960D05DD3E006BFB54 /* Debug */,
+        1D6058970D05DD3E006BFB54 /* Release */,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+    1D6058950D05DD3E006BFB54 /* Project configuration list */ = {
+      isa = XCConfigurationList;
+      buildConfigurations = (
+        1D6058960D05DD3E006BFB54 /* Debug */,
+        1D6058970D05DD3E006BFB54 /* Release */,
+      );
+      defaultConfigurationIsVisible = 0;
+      defaultConfigurationName = Release;
+    };
+    /* End XCConfigurationList section */
+  };
+  rootObject = 1D60588B0D05DD3D006BFB54 /* Project object */;
+}
